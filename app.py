@@ -8,4 +8,6 @@ def load_main():
     return render_template('main.html')
 
 if __name__ == "__main__":
+    #print(app.root_path)
+    #print(app.instance_path)
     app.run()

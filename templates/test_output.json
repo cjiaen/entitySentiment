@@ -1,0 +1,892 @@
+{
+    "analysis": [
+        {
+            "dependency": [
+                {
+                    "dep": "compound",
+                    "pos": "PROPN",
+                    "text": "Robert"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "PROPN",
+                    "text": "DeNiro"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "plays"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "the"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "most"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "unbelievably"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "ADJ",
+                    "text": "intelligent"
+                },
+                {
+                    "dep": "dobj",
+                    "pos": "ADJ",
+                    "text": "illiterate"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "all"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "time"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.6779,
+                "neg": 0.0,
+                "neu": 0.618,
+                "pos": 0.382
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "This"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "movie"
+                },
+                {
+                    "dep": "ccomp",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "so"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "wasteful"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "talent"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "PRON",
+                    "text": "it"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "truly"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "disgusting"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.3744,
+                "neg": 0.196,
+                "neu": 0.461,
+                "pos": 0.343
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "The"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "script"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "unbelievable"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.2023,
+                "neg": 0.0,
+                "neu": 0.625,
+                "pos": 0.375
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "The"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "dialog"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "unbelievable"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.2023,
+                "neg": 0.0,
+                "neu": 0.625,
+                "pos": 0.375
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "compound",
+                    "pos": "PROPN",
+                    "text": "Jane"
+                },
+                {
+                    "dep": "poss",
+                    "pos": "PROPN",
+                    "text": "Fonda"
+                },
+                {
+                    "dep": "case",
+                    "pos": "PART",
+                    "text": "'s"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "character"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "attr",
+                    "pos": "NOUN",
+                    "text": "caricature"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "PRON",
+                    "text": "herself"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "cc",
+                    "pos": "CCONJ",
+                    "text": "and"
+                },
+                {
+                    "dep": "neg",
+                    "pos": "ADV",
+                    "text": "not"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "ADJ",
+                    "text": "funny"
+                },
+                {
+                    "dep": "conj",
+                    "pos": "NUM",
+                    "text": "one"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": -0.3412,
+                "neg": 0.194,
+                "neu": 0.806,
+                "pos": 0.0
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "The"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "movie"
+                },
+                {
+                    "dep": "nsubjpass",
+                    "pos": "VERB",
+                    "text": "moves"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "at"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "poss",
+                    "pos": "NOUN",
+                    "text": "snail"
+                },
+                {
+                    "dep": "case",
+                    "pos": "PART",
+                    "text": "'s"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "pace"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "auxpass",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "photographed"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "in"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "an"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "ill"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "-"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "VERB",
+                    "text": "advised"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "manner"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "cc",
+                    "pos": "CCONJ",
+                    "text": "and"
+                },
+                {
+                    "dep": "conj",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "insufferably"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "preachy"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.0,
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "nsubj",
+                    "pos": "PRON",
+                    "text": "It"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "also"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "plugs"
+                },
+                {
+                    "dep": "prt",
+                    "pos": "ADP",
+                    "text": "in"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "every"
+                },
+                {
+                    "dep": "dobj",
+                    "pos": "NOUN",
+                    "text": "cliche"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "in"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "the"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "book"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": 0.0,
+                "neg": 0.0,
+                "neu": 1.0,
+                "pos": 0.0
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "compound",
+                    "pos": "PROPN",
+                    "text": "Swoozie"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "PROPN",
+                    "text": "Kurtz"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "excellent"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "in"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "ADJ",
+                    "text": "supporting"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "role"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "cc",
+                    "pos": "CCONJ",
+                    "text": "but"
+                },
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "so"
+                },
+                {
+                    "dep": "conj",
+                    "pos": "NOUN",
+                    "text": "what"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "?"
+                }
+            ],
+            "sentiment": {
+                "compound": 0.5106,
+                "neg": 0.0,
+                "neu": 0.65,
+                "pos": 0.35
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "Equally"
+                },
+                {
+                    "dep": "acomp",
+                    "pos": "ADJ",
+                    "text": "annoying"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "this"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "ADJ",
+                    "text": "new"
+                },
+                {
+                    "dep": "compound",
+                    "pos": "PROPN",
+                    "text": "IMDB"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "rule"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "pcomp",
+                    "pos": "VERB",
+                    "text": "requiring"
+                },
+                {
+                    "dep": "nummod",
+                    "pos": "NUM",
+                    "text": "ten"
+                },
+                {
+                    "dep": "dobj",
+                    "pos": "NOUN",
+                    "text": "lines"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "for"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "every"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "review"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": -0.4019,
+                "neg": 0.172,
+                "neu": 0.828,
+                "pos": 0.0
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "advmod",
+                    "pos": "ADV",
+                    "text": "When"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "movie"
+                },
+                {
+                    "dep": "advcl",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "this"
+                },
+                {
+                    "dep": "attr",
+                    "pos": "ADJ",
+                    "text": "worthless"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": ","
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "PRON",
+                    "text": "it"
+                },
+                {
+                    "dep": "aux",
+                    "pos": "VERB",
+                    "text": "does"
+                },
+                {
+                    "dep": "neg",
+                    "pos": "ADV",
+                    "text": "n't"
+                },
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "require"
+                },
+                {
+                    "dep": "nummod",
+                    "pos": "NUM",
+                    "text": "ten"
+                },
+                {
+                    "dep": "dobj",
+                    "pos": "NOUN",
+                    "text": "lines"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "text"
+                },
+                {
+                    "dep": "aux",
+                    "pos": "PART",
+                    "text": "to"
+                },
+                {
+                    "dep": "xcomp",
+                    "pos": "VERB",
+                    "text": "let"
+                },
+                {
+                    "dep": "amod",
+                    "pos": "ADJ",
+                    "text": "other"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "NOUN",
+                    "text": "readers"
+                },
+                {
+                    "dep": "ccomp",
+                    "pos": "VERB",
+                    "text": "know"
+                },
+                {
+                    "dep": "mark",
+                    "pos": "ADP",
+                    "text": "that"
+                },
+                {
+                    "dep": "nsubj",
+                    "pos": "PRON",
+                    "text": "it"
+                },
+                {
+                    "dep": "ccomp",
+                    "pos": "VERB",
+                    "text": "is"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "a"
+                },
+                {
+                    "dep": "attr",
+                    "pos": "NOUN",
+                    "text": "waste"
+                },
+                {
+                    "dep": "prep",
+                    "pos": "ADP",
+                    "text": "of"
+                },
+                {
+                    "dep": "pobj",
+                    "pos": "NOUN",
+                    "text": "time"
+                },
+                {
+                    "dep": "cc",
+                    "pos": "CCONJ",
+                    "text": "and"
+                },
+                {
+                    "dep": "conj",
+                    "pos": "NOUN",
+                    "text": "tape"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": -0.7331,
+                "neg": 0.212,
+                "neu": 0.788,
+                "pos": 0.0
+            }
+        },
+        {
+            "dependency": [
+                {
+                    "dep": "ROOT",
+                    "pos": "VERB",
+                    "text": "Avoid"
+                },
+                {
+                    "dep": "det",
+                    "pos": "DET",
+                    "text": "this"
+                },
+                {
+                    "dep": "dobj",
+                    "pos": "NOUN",
+                    "text": "movie"
+                },
+                {
+                    "dep": "punct",
+                    "pos": "PUNCT",
+                    "text": "."
+                }
+            ],
+            "sentiment": {
+                "compound": -0.296,
+                "neg": 0.524,
+                "neu": 0.476,
+                "pos": 0.0
+            }
+        }
+    ],
+    "coreference": {
+        "Jane Fonda's character": [
+            {
+                "end": 39,
+                "start": 35
+            },
+            {
+                "end": 44,
+                "start": 43
+            }
+        ],
+        "This movie": [
+            {
+                "end": 14,
+                "start": 12
+            },
+            {
+                "end": 21,
+                "start": 20
+            },
+            {
+                "end": 53,
+                "start": 51
+            },
+            {
+                "end": 75,
+                "start": 74
+            }
+        ],
+        "a movie": [
+            {
+                "end": 115,
+                "start": 113
+            },
+            {
+                "end": 120,
+                "start": 119
+            },
+            {
+                "end": 134,
+                "start": 133
+            },
+            {
+                "end": 145,
+                "start": 143
+            }
+        ]
+    }
+}
