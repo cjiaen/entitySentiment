@@ -7,6 +7,12 @@ app = Flask(__name__)
 def load_main():
     return render_template('main.html')
 
+@app.route('/load')
+def test_load():
+    #trigger pre-processing function here
+    #return json output to file
+    return ""
+
 if __name__ == "__main__":
     #print(app.root_path)
     #print(app.instance_path)
