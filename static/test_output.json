@@ -1,5 +1,53 @@
 {
-    "analysis": [
+    "coreference": {
+        "Jane Fonda's character": [
+            {
+                "end": 39,
+                "start": 35
+            },
+            {
+                "end": 44,
+                "start": 43
+            }
+        ],
+        "This movie": [
+            {
+                "end": 14,
+                "start": 12
+            },
+            {
+                "end": 21,
+                "start": 20
+            },
+            {
+                "end": 53,
+                "start": 51
+            },
+            {
+                "end": 75,
+                "start": 74
+            }
+        ],
+        "a movie": [
+            {
+                "end": 115,
+                "start": 113
+            },
+            {
+                "end": 120,
+                "start": 119
+            },
+            {
+                "end": 134,
+                "start": 133
+            },
+            {
+                "end": 145,
+                "start": 143
+            }
+        ]
+    },
+    "raw": [
         {
             "dependency": [
                 {
@@ -841,52 +889,61 @@
             }
         }
     ],
-    "coreference": {
-        "Jane Fonda's character": [
-            {
-                "end": 39,
-                "start": 35
-            },
-            {
-                "end": 44,
-                "start": 43
-            }
-        ],
-        "This movie": [
-            {
-                "end": 14,
-                "start": 12
-            },
-            {
-                "end": 21,
-                "start": 20
-            },
-            {
-                "end": 53,
-                "start": 51
-            },
-            {
-                "end": 75,
-                "start": 74
-            }
-        ],
-        "a movie": [
-            {
-                "end": 115,
-                "start": 113
-            },
-            {
-                "end": 120,
-                "start": 119
-            },
-            {
-                "end": 134,
-                "start": 133
-            },
-            {
-                "end": 145,
-                "start": 143
-            }
-        ]
-    }
+    "relationship": [
+        {
+            "object": "illiterate",
+            "sentiment": 0.6779,
+            "subject": "Robert DeNiro"
+        },
+        {
+            "object": "talent",
+            "sentiment": 0.3744,
+            "subject": "it"
+        },
+        {
+            "object": "script",
+            "sentiment": 0.2023,
+            "subject": "(Author)"
+        },
+        {
+            "object": "dialog",
+            "sentiment": 0.2023,
+            "subject": "(Author)"
+        },
+        {
+            "object": "herself",
+            "sentiment": -0.3412,
+            "subject": "Jane Fonda's character"
+        },
+        {
+            "object": "manner",
+            "sentiment": 0.0,
+            "subject": "movie"
+        },
+        {
+            "object": "cliche",
+            "sentiment": 0.0,
+            "subject": "It"
+        },
+        {
+            "object": "role",
+            "sentiment": 0.5106,
+            "subject": "Swoozie Kurtz"
+        },
+        {
+            "object": "lines",
+            "sentiment": -0.4019,
+            "subject": "IMDB rule"
+        },
+        {
+            "object": "lines",
+            "sentiment": -0.7331,
+            "subject": "it"
+        },
+        {
+            "object": "movie",
+            "sentiment": -0.296,
+            "subject": "(Author)"
+        }
+    ]
 }
