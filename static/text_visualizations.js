@@ -18,9 +18,9 @@ $.getJSON('/static/test_output.json', function(data){
         var score = link.sentiment;
         var type = "neutral";
         
-        if(score < 0){
-            type = 'nagative'
-        } else {
+        if(score < -0.2){
+            type = 'negative'
+        } else if(score > 0.2){
             type = 'positive'
         };
         
@@ -39,7 +39,7 @@ $.getJSON('/static/test_output.json', function(data){
     var link_force =  d3.forceLink(links)
                         .id(function(d) { return d.name; });
     simulation
-        .force("charge_force", d3.forceManyBody())
+        .force("charge_force", d3.forceManyBody().strength(-30))
         .force("center_force", d3.forceCenter(width / 2, height / 2))
         .force("links",link_force);
 
@@ -57,7 +57,13 @@ $.getJSON('/static/test_output.json', function(data){
                     .enter()
                     .append("path")
                     .attr("class", "links")
-                    .attr("marker-end", function(d) { return "url(#" + d.index + ")"; });
+                    .attr("marker-end", function(d) { return "url(#" + d.index + ")"; })
+                    .style('stroke', function(d){
+                        if(d.type == 'positive'){return "blue";}
+                        else if (d.type == 'negative'){return "red";}
+                        else {return "black";}
+                    })
+                    .attr('stroke-width', function(d) {return Math.abs(parseFloat(d.score)*10);});
     
     var circle = svg.append('g')
                     .attr("class", "nodes")
@@ -65,7 +71,7 @@ $.getJSON('/static/test_output.json', function(data){
                     .data(nodes)
                     .enter()
                     .append('circle')
-                    .attr('r', 6)
+                    .attr('r', 5)
                     .attr("fill", "grey");
 
     svg.append("defs")
@@ -81,7 +87,12 @@ $.getJSON('/static/test_output.json', function(data){
         .attr("markerHeight", 6)
         .attr("orient", "auto")
         .append("path")
-        .attr("d", "M0,-5L10,0L0,5");
+        .attr("d", "M0,-5L10,0L0,5")
+        .style('fill', function(d){
+            if(d.type == 'positive'){return "blue";}
+            else if (d.type == 'negative'){return "red";}
+            else {return "black";}
+        });
 
     var text = svg.append('g')
                     .attr('class', "text_label")
@@ -94,13 +105,27 @@ $.getJSON('/static/test_output.json', function(data){
                     .text(function(d){return d.name;});
     
     var drag_handler = d3.drag()
-                        .on("drag", drag_drag);	
+                        .on("start", drag_start)
+                        .on("drag", drag_drag)
+                        .on("end", drag_end);
 
-    drag_handler(nodes);
+    drag_handler(circle);
 
+    function drag_start(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+           d.fx = d.x;
+           d.fy = d.y;
+    }
+       
     function drag_drag(d) {
-        d.x = d3.event.x;
-        d.y = d3.event.y;
+         d.fx = d3.event.x;
+         d.fy = d3.event.y;
+    }
+       
+    function drag_end(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
     }
 
     function linkArc(d) {
